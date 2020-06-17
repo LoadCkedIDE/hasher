@@ -12,7 +12,10 @@ print(" ▀▀    ▀▀   ▀▀▀▀ ▀▀   ▀▀▀▀▀▀   ▀▀    
 print("pemmision")
 print(" ")
 print("1.hashdeep")
+print(" ")
 
+print('only linux')
+print(" ")
 print("hash by md5")
 print(" ")
 print(" ")
@@ -23,6 +26,10 @@ import os
 import random
 
 result = random.random()
+
+os.system('mkdir c')
+os.system('mkdir hash')
+
 
 what1 = input("your text: ")
 os.system('echo ' + what1 + ' > c/0.dat')
